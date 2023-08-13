@@ -163,7 +163,7 @@ HTLM5 极大简化了 DTD 的声明，不再支持 XHTML，目前只有：
 
 
 
-注意有一个  `<meta>` 标签，如下，3 秒后会重新刷新并跳转 [https://wukaipeng.com/](https://wukaipeng.com/)
+注意有一种  `<meta>` 标签，如下，3 秒后会重新刷新并跳转 [https://wukaipeng.com/](https://wukaipeng.com/)
 
 ```html
 <meta http-equiv="refresh" content="3;https://wukaipeng.com/">
@@ -254,6 +254,71 @@ HTML 不能插入图片，只能引用图片资源。
 
 ```html
 <img src="https://wukaipeng.com/k.png">
+```
+
+
+
+### 列表
+
+- 有序列表 order list： `<ol>` 
+- 无序列表 unordered list：`<ul>`
+- 列表项 `<li>`
+
+```html
+  <ul>
+    <li>广东汕头</li>
+    <li>湖南长沙</li>
+    <li>产后抑郁</li>
+  </ul>
+
+  <ol>
+    <li>网站：<a href="https://wukaipeng.com/">https://wukaipeng.com/</a></li>
+    <li>slogan：吴楷鹏的技术领域</li>
+    <li>备案号：粤ICP备2023085392号</li>
+  </ol>
+```
+
+
+
+- 定义列表 definition list：`<dl>`
+  - definition title：`<dt>`
+  - definition description: `<dd>`
+
+```html
+  <dl>
+    <dt>吴楷鹏</dt>
+    <dd>稳重吃肉的程序员</dd>
+    <dd>身体低于 2 米</dd>
+  </dl>
+```
+
+
+
+### 表格
+
+- 表格 `<table>`
+- 行 table row `<tr>`
+- 表格头 table head `<th>`
+- 表格内容 table data `<td>`
+
+```html
+    <table>
+      <tr>
+        <th>姓名</th>
+        <th>介绍</th>
+        <th>特点</th>
+      </tr>
+      <tr>
+        <td>吴楷鹏</td>
+        <td>稳重吃肉的程序员</td>
+        <td>身体低于 2 米</td>
+      </tr>
+      <tr>
+        <td>邓紫棋</td>
+        <td>歌手</td>
+        <td>凳子齐</td>
+      </tr>
+    </table>
 ```
 
 
