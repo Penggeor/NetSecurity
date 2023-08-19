@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="print('hhhh')">内嵌式</button><br />
+    <button id="button">行内式</button>
+    <span id="prompt"></span>
+    <script>
+      document.getElementById('button').onclick = function () {
+        const name = prompt('请输入你的名字')
+        document.getElementById('prompt').innerHTML = `你好，${name}`
+      }
+    </script>
+    <script src="./4.js"></script>
+  </body>
+</html>
