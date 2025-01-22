@@ -2,8 +2,6 @@
 
 👉 知识库地址：[https://wukaipeng.com/technique/net-security/introduction](https://wukaipeng.com/technique/net-security/introduction)
 
-🔥 持续更新：2023.08.01 → 2024.01.13
-
 ## 六大方向
 
 1. Web 安全
